@@ -19,7 +19,7 @@ class TimezoneServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		AliasLoader::getInstance()->alias('Timezone', \AlexeyMezenin\Timezone\Facades\Timezone::class);
+		AliasLoader::getInstance()->alias('Timezone', \AlexeyMezenin\LaravelGmtTimezones\Facades\Timezone::class);
 	}
 
 	/**
