@@ -1,0 +1,31 @@
+{
+    "name": "alexeymezenin/timezone",
+    "description": "Helps manage timezones in Laravel. Includes <select> form builder for timezones. Fork from camroncade/timezone with GMT used instead of UTC.",
+    "keywords": ["timezone", "timezones"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Mezenin",
+            "email": "alexeymezenin@gmail.com"
+        },
+        {
+            "name": "Camron Cade",
+            "email": "camron@camroncade.com",
+            "homepage": "http://www.camroncade.com/managing-timezones-with-laravel/",
+            "role": "Original package developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": ">=4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlexeyMezenin\\LaravelGmtTimezones\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    }
+}
